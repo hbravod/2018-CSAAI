@@ -232,7 +232,7 @@ function equatecookie(player){
   }
   if (second > totaltime || cookie=== ""){
     if (name == player && cookie != ""){ // borra la variable global
-      alert("PUTA! QUÉ OFERTÓN!!");
+      alert("Borrado");
     }
     cadena = "username= " + player + "%" + highscore + "%" + String(totaltime);
     document.cookie = cadena;
