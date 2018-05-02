@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Puzzle Canvitas</title>
+    <title>Práctica Puzzle Hugo Bravo Diaz</title>
+    <link rel="stylesheet" href="puzzle.css">
+
+
+</head>
+
+<body onload="init('dimebag');">
+  <div class="mainslider">
+    <img onclick="displayID(this)" class="slide1" id="dimebag" src="dimebag.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide2" id="gow" src="gow.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide3" id="soa" src="soa.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide1" id="fender" src="fender.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide2" id="rickandmorty" src="rickandmorty.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide3" id="pantera" src="pantera.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide1" id="motorhead" src="motorhead.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide2" id="peaky" src="peaky.jpg" width="200px" height="140px">
+    <img onclick="displayID(this)" class="slide3" id="vikings" src="vikings.jpg" width="200px" height="140px">
+
+
+    </div>
+
+
+    <p id="title"> >Puzzle Game< <p>
+    <p id="special"> Hugo Bravo Díaz </p>
+    <p id="timer"> YOUR TIME <span id="counter">0:0:0</span></p>
+    <button class="button" onclick="showhighscore()"> SHOW HIGHSCORE </button>
+
+    <div id="main" class="main">
+      <img id="imageType" src="dimebag.jpg" width="400px" height="300px">
+      <canvas id="puzzle" ></canvas>
+    </div>
+
+    <script src="puzzle.js"></script>
+    <div id="slider"></div>
+</body>
+
+</html>
